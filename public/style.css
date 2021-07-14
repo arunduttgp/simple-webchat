@@ -1,0 +1,40 @@
+html {
+    font-size: 1rem;
+  }
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+
+/*Chat Styles*/
+#container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .chat-input {
+    width: 95%;
+    height: 35px;
+    border: solid 1px #444;
+  }
+  .chat-submit {
+    width: 50px;
+    height: 35px;
+    border: solid 1px #444;
+  }
+  .chat-window {
+    height: 300px;
+    overflow: scroll;
+  }
+  #chatSection {
+    float: left;
+    border: 1px grey solid;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .render-message-user{
+      font-size: small;
+      color: #444;
+      font-style: italic;
+  }
